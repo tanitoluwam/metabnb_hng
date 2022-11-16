@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Red+Rose:wght@300;400;500;600;700&display=swap');
+*{
+  font-family:'Red Rose';
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.nav_links, .places_link{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+ line-height: 25px; 
+ color: #434343;
+ font-weight: 300;
+}
+
+.nav_links:hover {
+  color:#434343;
+  cursor: pointer;
+}
+
+.cta_btn{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  color:#fff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.cta_btn:hover{
+  opacity: 1;
+  color:#fff;  
+}
+
+.active_modal{
+  background-color: #CFD8DC;
+}
+
+.hero_introduction {
+  font-style: bold;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 78px;
+  letter-spacing: -0.02em;
+  color: #434343;
+}
+
+.hero_span-text{
+  color: #A02279;
+}
+
+.hero_sub-text{
+ font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #434343;
+}
+
+.input_style {
+  border:1px solid #A3A3A3;
+  color:#B8B8B8;
+}
+
+.span_input-style{
+  background-color: #A02279;
+  border:1px solid #A02279;
+  color:white
+}
+
+.footer_bg{
+  background-color: #1D1D1E;
+  color:#fff;
+  opacity: 1;
+}
+
+.details_btn{
+  color: #A02279;
+}
+.places_btn{
+  border: 1px solid #434343;
+}
+
+.banner{
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+padding: 10px 100px;
+gap: 264px;
+}
+
+.nft_header {
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+}
+
+.nft_body{
+font-size: 18px;
+line-height: 35px;
+}
+
+.parent-container {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.first_image{
+  position: relative;
+  top: 140px;
+  left: 180px;
+}
+.second_image{
+  position: absolute;
+  top: 310px;
+  left: 0;
+}
+.third_image{
+  position: absolute;
+  top: 450px;
+  left: 260px;
+}
+
+.card-size{
+  width: 18rem;
+  border-radius: 20px;
+}
+
+.card_text{
+  color: #434343;
+  font-size: 13px;
+}
+.card_text-bold{
+  color: #434343;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.nft_section {
+line-height: 35px;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+height: 900px;
+}
+
+.gallery_header{
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+}
+
