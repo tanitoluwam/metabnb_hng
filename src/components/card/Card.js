@@ -3,7 +3,7 @@ import stars from "../../assets/images/stars.png"
 
 export const Card = ({picture}) => {
   return (
-    <div className="card card-size d-flex flex-column mx-auto py-3 px-2 mt-4 mb-3">
+    <div className="card d-flex flex-column mx-auto py-3 px-2 mt-4 mb-3">
       <img src={picture} class="card-img-top" alt="..." />
       <div className="card-body">
         <div className="card-text d-flex justify-content-between">
