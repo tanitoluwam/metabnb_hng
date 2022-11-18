@@ -18,7 +18,7 @@ export const Navbar = ({ handleShow }) => {
       <nav className="d-md-flex justify-content-between align-items-center mt-5 container mx-auto mb-5">
         <div className="d-flex justify-content-between">
           <img src={logo} alt="metabnb logo" />
-          <button onClick={() => setOpen(!open)} className="d-md-block bg-white border-0">
+          <button onClick={() => setOpen(!open)} className="d-md-block bg-white border-0 d-lg-none">
             {open ? <IconClose /> : <HamburgerIcon />}
           </button>
         </div>
